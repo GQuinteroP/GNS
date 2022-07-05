@@ -1,5 +1,8 @@
 # GNS (Georeferenced Noise Sensor)
- A low-cost Georeferenced Noise Sensor (GNS) based on an ARM32 microcontroller and a digital MEMS microphone. The main components are:
+
+A low-cost Georeferenced Noise Sensor (GNS) based on an ARM32 microcontroller and a digital MEMS microphone. The device is designed to perform georeferenced noise measurements of Leq, LAeq or Third Octave Bands for a frequency rango between 63 Hz - 10 kHz. The integration time, ponderation filter, sampling time, can be configured in config.ini file within the MicroSD.
+ 
+The main components of the Hardware of the GNS are:
  
 - STM32F411RE: Microcontroller with evaluation board.
 - SPH0645LM4H-B: Digital MEMS microphone with evaluation board.
