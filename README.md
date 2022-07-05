@@ -1,5 +1,5 @@
-# GNS
- A low-cost Georeferenced Noise Sensor based on an ARM32 microcontroller and a digital MEMS microphone. The main components are:
+# GNS (Georeferenced Noise Sensor)
+ A low-cost Georeferenced Noise Sensor (GNS) based on an ARM32 microcontroller and a digital MEMS microphone. The main components are:
  
 - STM32F411RE: Microcontroller with evaluation board.
 - SPH0645LM4H-B: Digital MEMS microphone with evaluation board.
@@ -17,6 +17,8 @@ push button, cables, resistors and capacitors.
 The coding part of the present project was developed in Mbed Online Compiler (https://os.mbed.com/handbook/mbed-Compiler), platform which is already deprecated. The author has already succesfuly compiled the code in  Keil Studio Cloud (https://studio.keil.arm.com), but the output binary hasn't been tested in the hardware.
 
 The aim of uploading this project is to port it to a new platform, probably, to increase the capabilities, the microcontroller taget would be the ESP32 from ESPRESSIF SYSTEMS.
+
+The documentation to build-up a new measurement station can be found at [Hardware](/Hardware/Readme.md).
 
 ## Citation
 
