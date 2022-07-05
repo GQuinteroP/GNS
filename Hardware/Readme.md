@@ -19,4 +19,6 @@ In order to build a new GNS, the material need is as follows:
 - 2 resistors 220 ohms.
 - 2 capacitors 1uF.
 
-<img src="/figures/GNS_MAIN.jpg" width="155" height="126">
+## Schematics
+
+<img src="/GNS_sch_full.pdf" width="155" height="126">
