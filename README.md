@@ -22,9 +22,9 @@ The software is based on Mbed-rtos, it uses CMSIS library for signal filtering a
 There are three main tasks managed by the Mbed-rtos:
 - Data sampling: Highest prioroty task which performs the data acquisition from the MEMS microphone continously, handled by DMA.
 - Signal processing: Performs the filtering operations and indicators calculation (each 125 ms).
-- Georeferencing and storage: Obtains the position of the GPS, performs the indicator integration and stores the data into the MicroSD.
+- Georeferencing and storage: Obtains the position of the GPS, performs the indicator integration ($\geq$ 1 s) and stores the data into the MicroSD.
 
-For more information please refer to the paper stated in Citation section.
+For more information please refer to the paper stated in Citation section or e-mail me directly to guillermo.quintero.p@gmail.com.
 
 ### Hardware
 The documentation to build-up a new measurement station can be found at [Hardware](/Hardware/Readme.md).
