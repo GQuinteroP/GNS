@@ -12,11 +12,14 @@ The main components of the Hardware of the GNS are:
 <img src="/figures/GNS_MAIN.jpg" width="155" height="126"> <img src="/figures/GNS_cables.jpg" width="175" height="126"> <img src="/figures/GNS_mics.jpg" width="185" height="126">
 
 ## Documentation
-
 The coding part of the present project was developed in Mbed Online Compiler (https://os.mbed.com/handbook/mbed-Compiler), platform which is already deprecated. The author has already succesfuly compiled the code in  Keil Studio Cloud (https://studio.keil.arm.com), but the output binary hasn't been tested in the hardware.
 
 The aim of uploading this project is to port it to a new platform. Thus, to increase the capabilities, the target microcontroller would be the ESP32 from ESPRESSIF SYSTEMS.
 
+### Software
+The software is based on Mbed-rtos, it uses CMSIS library for filter and mathematical operations, a very basic NMEA library to obtain GPS position, 
+
+### Hardware
 The documentation to build-up a new measurement station can be found at [Hardware](/Hardware/Readme.md).
 
 ## Citation
