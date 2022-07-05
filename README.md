@@ -16,7 +16,7 @@ push button, cables, resistors and capacitors.
 
 The coding part of the present project was developed in Mbed Online Compiler (https://os.mbed.com/handbook/mbed-Compiler), platform which is already deprecated. The author has already succesfuly compiled the code in  Keil Studio Cloud (https://studio.keil.arm.com), but the output binary hasn't been tested in the hardware.
 
-The aim of uploading this project is to port it to a new platform. Thus, to increase the capabilities, the microcontroller taget would be the ESP32 from ESPRESSIF SYSTEMS.
+The aim of uploading this project is to port it to a new platform. Thus, to increase the capabilities, the target microcontroller would be the ESP32 from ESPRESSIF SYSTEMS.
 
 The documentation to build-up a new measurement station can be found at [Hardware](/Hardware/Readme.md).
 
