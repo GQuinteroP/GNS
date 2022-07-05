@@ -21,4 +21,4 @@ In order to build a new GNS, the material need is as follows:
 
 ## Schematics
 
-<img src="/GNS_sch_full.pdf" width="155" height="126">
+<img src="./GNS_sch_full.svg" width="155" height="126"> <img src="./GNS_sch_bottom.svg" width="155" height="126">
