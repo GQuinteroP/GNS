@@ -17,7 +17,14 @@ The coding part of the present project was developed in Mbed Online Compiler (ht
 The aim of uploading this project is to port it to a new platform. Thus, to increase the capabilities, the target microcontroller would be the ESP32 from ESPRESSIF SYSTEMS.
 
 ### Software
-The software is based on Mbed-rtos, it uses CMSIS library for filter and mathematical operations, a very basic NMEA library to obtain GPS position, 
+The software is based on Mbed-rtos, it uses CMSIS library for signal filtering and mathematical operations, a very basic NMEA library to obtain GPS position and a SDLibrary (Neil Thiessen http://www.apache.org/licenses/LICENSE-2.0). 
+
+There are three main tasks managed by the Mbed-rtos:
+- Data sampling: Highest prioroty task which performs the data acquisition from the MEMS microphone continously, handled by DMA.
+- Signal processing: Performs the filtering operations and indicators calculation (each 125 ms).
+- Georeferencing and storage: Obtains the position of the GPS, performs the indicator integration and stores the data into the MicroSD.
+
+For more information please refer to the paper stated in Citation section.
 
 ### Hardware
 The documentation to build-up a new measurement station can be found at [Hardware](/Hardware/Readme.md).
