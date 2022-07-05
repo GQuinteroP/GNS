@@ -10,7 +10,7 @@
 - Connectors and case Coin cell, AA battery holder, plastic case, microphone connectors, Micro SD connector, leds,
 push button, cables, resistors and capacitors.
 
-![GNS built](https://myoctocat.com/assets/images/base-octocat.svg)
+<img src="/figures/GNS_MAIN.jpg" width="155" height="126"> <img src="/figures/GNS_cables.jpg" width="155" height="126"> <img src="/figures/GNS_mics.jpg" width="155" height="126">
 
 ## Documentation
 
